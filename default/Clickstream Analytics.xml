@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.atscale.com/xsd/project_2_0" name="Clickstream Analytics" version="2" xsi:schemaLocation="http://www.atscale.com/xsd/project_2_0 ../../../../../core/src/main/resources/com/atscale/engine/schema/project_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <annotations>
-    <annotation name="version">12</annotation>
+    <annotation name="version">13</annotation>
     <annotation name="engineId">omniture</annotation>
     <annotation name="versionTag">Published on Mar 1, 2018 at 11:39am (PST)</annotation>
   </annotations>
