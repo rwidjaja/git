@@ -1,0 +1,1697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.atscale.com/xsd/project_2_0" name="Clickstream Analytics" version="2" xsi:schemaLocation="http://www.atscale.com/xsd/project_2_0 ../../../../../core/src/main/resources/com/atscale/engine/schema/project_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <annotations>
+    <annotation name="version">8</annotation>
+    <annotation name="engineId">omniture</annotation>
+    <annotation name="versionTag">Published on May 2, 2018 at 10:21am (EDT)</annotation>
+  </annotations>
+  <properties>
+    <caption>Clickstream Analytics</caption>
+    <visible>true</visible>
+  </properties>
+  <attributes>
+    <attribute-key id="b267221c-ee91-49bf-933f-d21c08e7d91b">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="6cd9542e-8093-4f70-baac-49acfc1f3510">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="8946e5a6-8983-437e-8daa-a42df3f50f00">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="9d39743e-3bb5-4931-9099-1846c9b87547">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="c87c195b-f002-4535-b5ec-fc70a0ac032a">
+      <properties>
+        <visible>true</visible>
+        <high-cardinality>true</high-cardinality>
+      </properties>
+    </attribute-key>
+    <attribute-key id="cc74610c-7bde-4f38-a750-572d04914aba">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="dfa26717-70e1-453f-acec-ca5660087954">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="36bb2f46-0bb2-4784-a5e9-732c8484638b">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="e5dd9877-7455-45b6-b841-8e4053c92968">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="eda2face-e92d-44f7-9a02-0c7b65892059">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="f328ff08-d2d7-423d-b18f-48f335d3d41e">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="035a2726-8c46-4ff7-a0b5-a7bdc778863a">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="8ffef1ea-36e4-484a-bdd5-76a772447020">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="78933aff-1c88-4fb6-91d2-6070cac2bb52">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <keyed-attribute id="c28e2ef9-0522-4dbf-508d-d80b5f93df68" key-ref="b267221c-ee91-49bf-933f-d21c08e7d91b" name="country">
+      <properties>
+        <caption>Country</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="9a4dc802-52a5-42c3-49ba-9f64d909465b" key-ref="6cd9542e-8093-4f70-baac-49acfc1f3510" name="Local TV">
+      <properties>
+        <caption>Local TV</caption>
+        <visible>true</visible>
+        <folder>Visitor Attributes</folder>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="680009bb-4e79-4865-667f-04c5806d021d" key-ref="8946e5a6-8983-437e-8daa-a42df3f50f00" name="local_radio">
+      <properties>
+        <caption>Local Radio</caption>
+        <visible>true</visible>
+        <folder>Visitor Attributes</folder>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="ae4cc890-1a5b-4e64-4b54-1be9b33938a0" key-ref="9d39743e-3bb5-4931-9099-1846c9b87547" name="state">
+      <properties>
+        <caption>State</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="b432ee05-f541-4299-4709-71df968ef559" key-ref="c87c195b-f002-4535-b5ec-fc70a0ac032a" name="Users">
+      <properties>
+        <caption>Users</caption>
+        <visible>false</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <high-cardinality>true</high-cardinality>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="44267e5c-7945-431a-7320-e50c536235c6" key-ref="cc74610c-7bde-4f38-a750-572d04914aba" name="Birth Date">
+      <properties>
+        <caption>Birth Date</caption>
+        <visible>true</visible>
+        <folder>Visitor Attributes</folder>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="dadc6e0c-c65d-4c2d-4d05-af913ea8fbff" key-ref="dfa26717-70e1-453f-acec-ca5660087954" name="Gender">
+      <properties>
+        <caption>Gender</caption>
+        <visible>true</visible>
+        <folder>Visitor Attributes</folder>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="042244b3-7fef-4577-6a08-ffa8a77f4758" key-ref="36bb2f46-0bb2-4784-a5e9-732c8484638b" name="Product">
+      <properties>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="b5e815f9-619e-46df-4fcf-715c30de6de1" key-ref="e5dd9877-7455-45b6-b841-8e4053c92968" name="product_line">
+      <properties>
+        <caption>Product Line</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="4d382290-3e3f-48d4-7ffd-afc52a3200e6" key-ref="eda2face-e92d-44f7-9a02-0c7b65892059" name="category">
+      <properties>
+        <caption>Category</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="4d1f30d9-d74a-4ee6-6622-7f787e80eeb9" key-ref="f328ff08-d2d7-423d-b18f-48f335d3d41e" name="calendaryear">
+      <properties>
+        <caption>Calendar Year</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="9c5ec594-a7c0-4623-77b3-3e35d39f6765" key-ref="035a2726-8c46-4ff7-a0b5-a7bdc778863a" name="Month">
+      <properties>
+        <caption>Month</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="5c93d1b9-5d27-41b9-4184-3e4306e9148d" key-ref="8ffef1ea-36e4-484a-bdd5-76a772447020" name="Date">
+      <properties>
+        <caption>Date</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="a982aa11-5f40-4f46-74bf-b2967a0479b2" key-ref="78933aff-1c88-4fb6-91d2-6070cac2bb52" name="daynumberofweek">
+      <properties>
+        <caption>Day Number Of Week</caption>
+        <visible>true</visible>
+        <folder>Date Attributes</folder>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+  </attributes>
+  <dimensions>
+    <dimension id="017ac1db-ce6e-4cfe-5baf-2e6931bc482a" name="Users">
+      <hierarchy id="8d66c0fa-d91e-40ed-b9b2-f50ca868b018" name="Users">
+        <properties>
+          <visible>true</visible>
+        </properties>
+        <level primary-attribute="b432ee05-f541-4299-4709-71df968ef559">
+          <keyed-attribute-ref attribute-id="44267e5c-7945-431a-7320-e50c536235c6">
+            <properties></properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="dadc6e0c-c65d-4c2d-4d05-af913ea8fbff">
+            <properties></properties>
+          </keyed-attribute-ref>
+        </level>
+      </hierarchy>
+    </dimension>
+    <dimension id="32bb8b6a-2cc6-42e4-5d88-d19c5c508392" name="Product">
+      <hierarchy id="884de32a-81c4-4e74-8e29-71cfe7594e79" name="Product">
+        <properties>
+          <visible>true</visible>
+        </properties>
+        <level primary-attribute="b5e815f9-619e-46df-4fcf-715c30de6de1"></level>
+        <level primary-attribute="4d382290-3e3f-48d4-7ffd-afc52a3200e6"></level>
+        <level primary-attribute="042244b3-7fef-4577-6a08-ffa8a77f4758"></level>
+      </hierarchy>
+    </dimension>
+    <dimension id="67ee93dc-8e56-4b04-5b4f-f9670416d033" name="Date">
+      <hierarchy id="8ed3b3fb-74e1-4675-98e7-070a76f5a0a9" name="Date">
+        <properties>
+          <caption>Date</caption>
+          <visible>true</visible>
+          <folder>Date Attributes</folder>
+        </properties>
+        <level primary-attribute="4d1f30d9-d74a-4ee6-6622-7f787e80eeb9"></level>
+        <level primary-attribute="9c5ec594-a7c0-4623-77b3-3e35d39f6765"></level>
+        <level primary-attribute="5c93d1b9-5d27-41b9-4184-3e4306e9148d">
+          <keyed-attribute-ref attribute-id="a982aa11-5f40-4f46-74bf-b2967a0479b2">
+            <properties></properties>
+          </keyed-attribute-ref>
+        </level>
+      </hierarchy>
+    </dimension>
+  </dimensions>
+  <data-sets>
+    <data-set id="ff82a90a-023a-4b25-4ae2-9fc1eb7d6dba" name="clickstream">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>clickstream</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>txn_id</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>txn_time</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>ipaddress</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>pageview</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>url</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>cookieid</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>client_lang</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>res_vert</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>res_horz</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>http_response</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>isp</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>user_agent</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>timespent</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>city</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>country</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>state</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>local_radio</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>local_tv</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>monitor_resolution</name>
+          <sql>concat(res_horz,&#34;x&#34;,res_vert)</sql>
+          <type>String</type>
+        </column>
+        <column>
+          <name>txn_date</name>
+          <sql>substr(txn_time,1,10)</sql>
+          <type>String</type>
+        </column>
+        <column>
+          <name>Record Count</name>
+          <sql>1</sql>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="b267221c-ee91-49bf-933f-d21c08e7d91b" unique="false" complete="true">
+          <column>country</column>
+        </key-ref>
+        <key-ref id="6cd9542e-8093-4f70-baac-49acfc1f3510" unique="false" complete="true">
+          <column>local_tv</column>
+        </key-ref>
+        <key-ref id="8946e5a6-8983-437e-8daa-a42df3f50f00" unique="false" complete="true">
+          <column>local_radio</column>
+        </key-ref>
+        <key-ref id="9d39743e-3bb5-4931-9099-1846c9b87547" unique="false" complete="true">
+          <column>state</column>
+        </key-ref>
+        <attribute-ref id="c28e2ef9-0522-4dbf-508d-d80b5f93df68" complete="true">
+          <column>country</column>
+        </attribute-ref>
+        <attribute-ref id="9a4dc802-52a5-42c3-49ba-9f64d909465b" complete="true">
+          <column>local_tv</column>
+        </attribute-ref>
+        <attribute-ref id="680009bb-4e79-4865-667f-04c5806d021d" complete="true">
+          <column>local_radio</column>
+        </attribute-ref>
+        <attribute-ref id="ae4cc890-1a5b-4e64-4b54-1be9b33938a0" complete="true">
+          <column>state</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="ce05c353-9be8-427c-78ea-1669ecf0d918" name="date_omniture">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>date_omniture</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>datekey</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>fulldatealternatekey</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>daynumberofweek</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>englishdaynameofweek</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>daynumberofmonth</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>weeknumberofyear</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>englishmonthname</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>monthnumberofyear</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>calendarquarter</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>calendaryear</name>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="38e86300-582f-489e-6286-c1e49d446f63" name="date_omniture">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>date_omniture</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>datekey</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>fulldatealternatekey</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>daynumberofweek</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>englishdaynameofweek</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>daynumberofmonth</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>weeknumberofyear</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>englishmonthname</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>monthnumberofyear</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>calendarquarter</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>calendaryear</name>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="f328ff08-d2d7-423d-b18f-48f335d3d41e" unique="false" complete="true">
+          <column>calendaryear</column>
+        </key-ref>
+        <key-ref id="035a2726-8c46-4ff7-a0b5-a7bdc778863a" unique="false" complete="true">
+          <column>englishmonthname</column>
+        </key-ref>
+        <key-ref id="8ffef1ea-36e4-484a-bdd5-76a772447020" unique="true" complete="true">
+          <column>fulldatealternatekey</column>
+        </key-ref>
+        <key-ref id="78933aff-1c88-4fb6-91d2-6070cac2bb52" unique="false" complete="true">
+          <column>daynumberofweek</column>
+        </key-ref>
+        <attribute-ref id="4d1f30d9-d74a-4ee6-6622-7f787e80eeb9" complete="true">
+          <column>calendaryear</column>
+        </attribute-ref>
+        <attribute-ref id="9c5ec594-a7c0-4623-77b3-3e35d39f6765" complete="true">
+          <column>englishmonthname</column>
+        </attribute-ref>
+        <attribute-ref id="5c93d1b9-5d27-41b9-4184-3e4306e9148d" complete="true">
+          <column>datekey</column>
+        </attribute-ref>
+        <attribute-ref id="a982aa11-5f40-4f46-74bf-b2967a0479b2" complete="true">
+          <column>daynumberofweek</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="72651da0-e6e6-4bb9-6f12-0489a98e2120" name="products">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>products</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>url</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>category</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>product_line</name>
+          <sql>regexp_extract(url, &#39;http.+/([^/]*)/([^/]*)$&#39;, 1)</sql>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="36bb2f46-0bb2-4784-a5e9-732c8484638b" unique="true" complete="true">
+          <column>url</column>
+        </key-ref>
+        <key-ref id="e5dd9877-7455-45b6-b841-8e4053c92968" unique="false" complete="true">
+          <column>product_line</column>
+        </key-ref>
+        <key-ref id="eda2face-e92d-44f7-9a02-0c7b65892059" unique="false" complete="true">
+          <column>category</column>
+        </key-ref>
+        <attribute-ref id="042244b3-7fef-4577-6a08-ffa8a77f4758" complete="true">
+          <column>url</column>
+        </attribute-ref>
+        <attribute-ref id="b5e815f9-619e-46df-4fcf-715c30de6de1" complete="true">
+          <column>product_line</column>
+        </attribute-ref>
+        <attribute-ref id="4d382290-3e3f-48d4-7ffd-afc52a3200e6" complete="true">
+          <column>category</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="e8bfd809-55a9-4344-5555-9e6b0bbb3beb" name="rawlogs">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>rawlogs</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>col_1</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_2</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_3</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_4</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_5</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_6</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_7</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_8</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_9</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_10</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_11</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_12</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_13</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_14</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_15</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_16</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_17</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_18</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_19</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_20</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_21</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_22</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_23</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_24</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_25</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_26</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_27</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_28</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_29</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_30</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_31</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_32</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_33</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_34</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_35</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_36</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_37</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_38</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_39</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_40</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_41</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_42</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_43</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_44</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_45</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_46</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_47</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_48</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_49</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_50</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_51</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_52</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_53</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_54</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_55</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_56</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_57</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_58</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_59</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_60</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_61</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_62</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_63</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_64</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_65</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_66</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_67</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_68</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_69</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_70</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_71</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_72</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_73</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_74</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_75</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_76</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_77</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_78</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_79</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_80</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_81</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_82</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_83</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_84</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_85</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_86</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_87</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_88</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_89</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_90</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_91</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_92</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_93</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_94</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_95</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_96</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_97</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_98</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_99</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_100</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_101</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_102</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_103</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_104</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_105</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_106</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_107</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_108</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_109</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_110</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_111</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_112</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_113</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_114</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_115</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_116</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_117</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_118</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_119</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_120</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_121</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_122</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_123</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_124</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_125</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_126</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_127</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_128</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_129</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_130</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_131</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_132</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_133</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_134</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_135</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_136</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_137</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_138</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_139</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_140</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_141</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_142</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_143</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_144</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_145</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_146</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_147</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_148</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_149</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_150</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_151</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_152</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_153</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_154</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_155</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_156</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_157</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_158</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_159</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_160</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_161</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_162</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_163</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_164</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_165</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_166</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_167</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_168</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_169</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_170</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_171</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_172</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_173</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_174</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_175</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_176</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_177</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>col_178</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="d3b69d7a-28f2-46b8-4a7e-3ee983fa39d9" name="users">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>users</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>swid</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>birth_dt</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>gender_cd</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>cookieid</name>
+          <sql>concat(&#34;{&#34;, swid , &#34;}&#34;)</sql>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="c87c195b-f002-4535-b5ec-fc70a0ac032a" unique="true" complete="true">
+          <column>cookieid</column>
+        </key-ref>
+        <key-ref id="cc74610c-7bde-4f38-a750-572d04914aba" unique="false" complete="true">
+          <column>birth_dt</column>
+        </key-ref>
+        <key-ref id="dfa26717-70e1-453f-acec-ca5660087954" unique="false" complete="true">
+          <column>gender_cd</column>
+        </key-ref>
+        <attribute-ref id="b432ee05-f541-4299-4709-71df968ef559" complete="true">
+          <column>swid</column>
+        </attribute-ref>
+        <attribute-ref id="44267e5c-7945-431a-7320-e50c536235c6" complete="true">
+          <column>birth_dt</column>
+        </attribute-ref>
+        <attribute-ref id="dadc6e0c-c65d-4c2d-4d05-af913ea8fbff" complete="true">
+          <column>gender_cd</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+  </data-sets>
+  <calculated-members>
+    <calculated-member id="fc146522-d007-430f-5cb6-860f5a9727ec" name="Pageviews per Visitor">
+      <properties>
+        <visible>true</visible>
+        <folder>Visitor Metrics</folder>
+      </properties>
+      <expression>([Measures].[pageview] / [Measures].[cookieid_count])</expression>
+    </calculated-member>
+  </calculated-members>
+  <cubes>
+    <cube id="598b12ed-3e5d-408e-6655-8a5dc4db14c4" name="Clickstream Analytics">
+      <properties>
+        <caption>Clickstream Analytics Cube</caption>
+        <visible>true</visible>
+      </properties>
+      <attributes>
+        <attribute-key id="3b374e6a-be13-4aba-91d7-d98674736d7f">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="576dfb8e-253a-4061-869e-bb17f5bf4601">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="1b929d7d-d9a1-4e1f-a193-2f82ff329780">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="fb7f7817-5e05-496d-b464-0eb6388979c3">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="53079599-f2e2-4fed-a1d1-f7dfe6818e91">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="d265d3db-4a14-4d59-aa13-7c428cf8538c">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="aa51f153-36bc-473a-a828-50a32cb119ed">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="ba23cbb1-3bf9-4a67-8c30-168e17ef8e64">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <keyed-attribute id="40010b35-85ab-4d1b-97a6-2bd37a037eb6" key-ref="1b929d7d-d9a1-4e1f-a193-2f82ff329780" name="Language">
+          <properties>
+            <caption>Language</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="9239a3ae-ccb0-44c2-89a6-88bfbabfca01" key-ref="fb7f7817-5e05-496d-b464-0eb6388979c3" name="Monitor Resolution">
+          <properties>
+            <caption>Monitor Resolution</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="02a6473d-bd03-45b8-becd-171fd5f30f37" key-ref="53079599-f2e2-4fed-a1d1-f7dfe6818e91" name="User Agent">
+          <properties>
+            <caption>User Agent</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="082ac262-8d32-4423-b5ab-140d202c86ca" key-ref="d265d3db-4a14-4d59-aa13-7c428cf8538c" name="ISP">
+          <properties>
+            <caption>ISP</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="6bf08130-5732-45f0-b4a1-97d2dedbfeff" key-ref="aa51f153-36bc-473a-a828-50a32cb119ed" name="city">
+          <properties>
+            <caption>city</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <attribute id="75bd1baf-6015-494e-9a17-22532c833231" name="timespent">
+          <properties>
+            <caption>Time Spent</caption>
+            <visible>true</visible>
+            <folder>Session Metrics</folder>
+            <type>
+              <measure>
+                <default-aggregation>SUM</default-aggregation>
+              </measure>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="623532f4-c185-4305-a3c6-d215c4c765ed" name="pageview">
+          <properties>
+            <caption>Pageviews</caption>
+            <visible>true</visible>
+            <folder>Session Metrics</folder>
+            <type>
+              <measure>
+                <default-aggregation>SUM</default-aggregation>
+              </measure>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="efb4c7d3-589b-44f3-bedb-a02682c1d025" name="cookieid_estimate">
+          <properties>
+            <caption>Estimated Cookie Count</caption>
+            <visible>true</visible>
+            <folder>Visitor Metrics</folder>
+            <type>
+              <count-distinct>
+                <key-ref id="3b374e6a-be13-4aba-91d7-d98674736d7f"></key-ref>
+                <approximate>true</approximate>
+              </count-distinct>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="d850e97f-894f-4e1f-93df-c14cc8d97598" name="txn_id">
+          <properties>
+            <caption>Purchase Count</caption>
+            <visible>true</visible>
+            <folder>Commerce Metrics</folder>
+            <type>
+              <count-distinct>
+                <key-ref id="576dfb8e-253a-4061-869e-bb17f5bf4601"></key-ref>
+                <approximate>true</approximate>
+              </count-distinct>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="ad921d48-8ab0-4204-a052-93be8459ba7c" name="cookieid_count">
+          <properties>
+            <caption>Raw Cookie Count</caption>
+            <visible>true</visible>
+            <folder>Visitor Metrics</folder>
+            <type>
+              <count-distinct>
+                <key-ref id="ba23cbb1-3bf9-4a67-8c30-168e17ef8e64"></key-ref>
+                <approximate>false</approximate>
+              </count-distinct>
+            </type>
+          </properties>
+        </attribute>
+      </attributes>
+      <dimensions>
+        <dimension id="22629499-4aa8-4d3a-9f24-f12aa46741a5" name="client_lang">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="d1a4ff0f-3e85-45f3-9dc3-f61528392ffd" name="client_lang">
+            <properties>
+              <caption>client_lang</caption>
+              <visible>true</visible>
+              <folder>Client Attributes</folder>
+              <filter-empty>Always</filter-empty>
+            </properties>
+            <level primary-attribute="40010b35-85ab-4d1b-97a6-2bd37a037eb6">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="895d0863-e06e-450f-a1eb-789eb1bb31d8" name="monitor_resolution">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="8e97b7e9-9422-4c1a-a147-b838d7abff8c" name="monitor_resolution">
+            <properties>
+              <caption>monitor_resolution</caption>
+              <visible>true</visible>
+              <folder>Client Attributes</folder>
+              <filter-empty>Always</filter-empty>
+            </properties>
+            <level primary-attribute="9239a3ae-ccb0-44c2-89a6-88bfbabfca01">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="3e9515cc-e0ba-4300-a57e-445788a70e64" name="user_agent">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="e01ab6e8-e03d-4cee-9f8f-5dd414dde6c5" name="user_agent">
+            <properties>
+              <caption>user_agent</caption>
+              <visible>true</visible>
+              <folder>Client Attributes</folder>
+              <filter-empty>Always</filter-empty>
+            </properties>
+            <level primary-attribute="02a6473d-bd03-45b8-becd-171fd5f30f37">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="6095d153-5c95-41d3-91bf-4afd0c942cda" name="isp">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="519eee59-34d2-4950-9c8c-594d411edfc6" name="isp">
+            <properties>
+              <caption>isp</caption>
+              <visible>true</visible>
+              <folder>Visitor Attributes</folder>
+              <filter-empty>Always</filter-empty>
+            </properties>
+            <level primary-attribute="082ac262-8d32-4423-b5ab-140d202c86ca">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="d8366d72-f044-4f8c-b5e4-08f8c3ab02e0" name="city">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="4f03c772-1f61-4747-bd96-853c8b232f2a" name="city">
+            <properties>
+              <caption>Visitor Geography</caption>
+              <visible>true</visible>
+              <folder>Visitor Attributes</folder>
+              <filter-empty>Always</filter-empty>
+            </properties>
+            <level primary-attribute="c28e2ef9-0522-4dbf-508d-d80b5f93df68">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+            <level primary-attribute="ae4cc890-1a5b-4e64-4b54-1be9b33938a0">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+            <level primary-attribute="6bf08130-5732-45f0-b4a1-97d2dedbfeff">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+              <keyed-attribute-ref attribute-id="9a4dc802-52a5-42c3-49ba-9f64d909465b">
+                <properties>
+                  <multiplicity></multiplicity>
+                </properties>
+              </keyed-attribute-ref>
+              <keyed-attribute-ref attribute-id="680009bb-4e79-4865-667f-04c5806d021d">
+                <properties>
+                  <multiplicity></multiplicity>
+                </properties>
+              </keyed-attribute-ref>
+            </level>
+          </hierarchy>
+        </dimension>
+      </dimensions>
+      <actions>
+        <properties>
+          <include-default-drill-through>true</include-default-drill-through>
+        </properties>
+      </actions>
+      <data-sets>
+        <data-set-ref id="ff82a90a-023a-4b25-4ae2-9fc1eb7d6dba">
+          <properties>
+            <allow-aggregates>true</allow-aggregates>
+            <create-hinted-aggregate>false</create-hinted-aggregate>
+          </properties>
+          <logical>
+            <key-ref id="3b374e6a-be13-4aba-91d7-d98674736d7f" unique="false" complete="true">
+              <column>cookieid</column>
+            </key-ref>
+            <key-ref id="576dfb8e-253a-4061-869e-bb17f5bf4601" unique="false" complete="true">
+              <column>txn_id</column>
+            </key-ref>
+            <key-ref id="1b929d7d-d9a1-4e1f-a193-2f82ff329780" unique="false" complete="true">
+              <column>client_lang</column>
+            </key-ref>
+            <key-ref id="fb7f7817-5e05-496d-b464-0eb6388979c3" unique="false" complete="true">
+              <column>monitor_resolution</column>
+            </key-ref>
+            <key-ref id="53079599-f2e2-4fed-a1d1-f7dfe6818e91" unique="false" complete="true">
+              <column>user_agent</column>
+            </key-ref>
+            <key-ref id="d265d3db-4a14-4d59-aa13-7c428cf8538c" unique="false" complete="true">
+              <column>isp</column>
+            </key-ref>
+            <key-ref id="aa51f153-36bc-473a-a828-50a32cb119ed" unique="false" complete="true">
+              <column>city</column>
+            </key-ref>
+            <key-ref id="c87c195b-f002-4535-b5ec-fc70a0ac032a" unique="false" complete="false">
+              <column>cookieid</column>
+            </key-ref>
+            <key-ref id="36bb2f46-0bb2-4784-a5e9-732c8484638b" unique="false" complete="false">
+              <column>url</column>
+            </key-ref>
+            <key-ref id="8ffef1ea-36e4-484a-bdd5-76a772447020" unique="false" complete="false">
+              <column>txn_date</column>
+            </key-ref>
+            <key-ref id="ba23cbb1-3bf9-4a67-8c30-168e17ef8e64" unique="false" complete="true">
+              <column>cookieid</column>
+            </key-ref>
+            <attribute-ref id="75bd1baf-6015-494e-9a17-22532c833231" complete="true">
+              <column>timespent</column>
+            </attribute-ref>
+            <attribute-ref id="623532f4-c185-4305-a3c6-d215c4c765ed" complete="true">
+              <column>pageview</column>
+            </attribute-ref>
+            <attribute-ref id="40010b35-85ab-4d1b-97a6-2bd37a037eb6" complete="true">
+              <column>client_lang</column>
+            </attribute-ref>
+            <attribute-ref id="9239a3ae-ccb0-44c2-89a6-88bfbabfca01" complete="true">
+              <column>monitor_resolution</column>
+            </attribute-ref>
+            <attribute-ref id="02a6473d-bd03-45b8-becd-171fd5f30f37" complete="true">
+              <column>user_agent</column>
+            </attribute-ref>
+            <attribute-ref id="082ac262-8d32-4423-b5ab-140d202c86ca" complete="true">
+              <column>isp</column>
+            </attribute-ref>
+            <attribute-ref id="6bf08130-5732-45f0-b4a1-97d2dedbfeff" complete="true">
+              <column>city</column>
+            </attribute-ref>
+          </logical>
+        </data-set-ref>
+      </data-sets>
+      <calculated-members>
+        <calculated-member-ref id="fc146522-d007-430f-5cb6-860f5a9727ec"></calculated-member-ref>
+      </calculated-members>
+      <aggregates></aggregates>
+    </cube>
+  </cubes>
+</schema>
