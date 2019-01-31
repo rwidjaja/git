@@ -1,0 +1,3299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.atscale.com/xsd/project_2_0" name="Sales Insights" version="2" xsi:schemaLocation="http://www.atscale.com/xsd/project_2_0 ../../../../../core/src/main/resources/com/atscale/engine/schema/project_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <annotations>
+    <annotation name="complete-fix">true</annotation>
+    <annotation name="version">2</annotation>
+    <annotation name="engineId">f50721e3-a4a6-4470-4e93-9823f1f1149e</annotation>
+    <annotation name="versionTag">Published on Jan 31, 2019 at 12:09pm (PST)</annotation>
+  </annotations>
+  <properties>
+    <caption>Sales Insights</caption>
+    <visible>true</visible>
+    <aggregate-prediction>
+      <speculative-aggregates>false</speculative-aggregates>
+    </aggregate-prediction>
+  </properties>
+  <attributes>
+    <attribute-key id="3b0e5176-ca31-4706-a508-092e3c17daa2">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="b75e5589-2223-4250-ac17-ff7b86120852">
+      <properties>
+        <visible>true</visible>
+        <columns>2</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="a61e6302-b896-4c21-ae6f-b60852d6719c">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="fcbf6329-8833-448f-8bac-78cc3f1ffd7c">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="44f3841f-61fd-42d3-a664-75e27b4420b8">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="69869466-5e95-4103-bada-f36755d25488">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="abd7c7e8-8579-40e3-aa2e-cf448230a752">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="aaaa89cd-8974-4540-a835-47fa536eefc2">
+      <properties>
+        <visible>true</visible>
+        <columns>2</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="85aa0d05-e247-4b1e-8d8d-059fc5f2f6d6">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="a5fc25d5-cc4f-43e5-b308-7f8ec879891c">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="2aa5ce88-e160-4845-8a6c-8960adefd6a9">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="ca8df572-e71c-4ca7-83ec-dd7db2d5b0e4">
+      <properties>
+        <visible>true</visible>
+        <columns>2</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="7e509dab-7781-4d7a-afca-0b48384468f0">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="e533d893-1852-4d88-9cbe-f115323f5356">
+      <properties>
+        <visible>true</visible>
+        <columns>2</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="e41a7aa7-2848-4e71-88a3-0abb2284c805">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="f541b9e0-9316-4872-b2e7-10bec1ec05df">
+      <properties>
+        <visible>true</visible>
+      </properties>
+    </attribute-key>
+    <attribute-key id="65862f05-a47f-47ff-b854-5a9ffe41b85a">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="18a5d527-78af-4d61-bfae-83d386e079b8">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="2e720366-c1ff-4aeb-9c71-9fd0afddc80e">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="17cdd59a-05f0-410f-afdb-42275fa8c93d">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="2d4ab311-1b2a-442d-b23b-d790b55c35e1">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="66653614-8f36-40d7-a9dc-611cab2b011e">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="80a1d740-0700-4139-b7ea-eee3608d43df">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="03417c99-924c-42e7-b1b8-afea9dbe8d67">
+      <properties>
+        <visible>true</visible>
+        <columns>2</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="371f9019-3e4f-4714-8cf4-042312b783e2">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="10684a7b-780c-46bc-b5b4-ed86fb975d12">
+      <properties>
+        <visible>true</visible>
+        <columns>2</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="81fd8a73-43f5-4ce1-8028-4b84224df2dd">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="5a3062a1-e4bd-4b5d-bb2b-25378b53cfff">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="ce8fe5e8-fda4-4922-aacb-ce1731fe5357">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="ffe9ddd7-e5c8-4aa2-bad0-0e6e47188023">
+      <properties>
+        <visible>true</visible>
+        <columns>2</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="70a4fa22-bea2-444c-bd7e-5b9cdffbfb4d">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="15715cfd-b548-4f25-9e00-42eaad7f2827">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="5b6b6dac-0fd5-40f5-a134-01c0f7effbf6">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="a1ce2262-9f06-4ccb-858a-abc49d2537a1">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="c6006d52-d538-4d62-9d7f-d9b790c4e381">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="29e49cc8-921b-4830-bc16-cb690bd1270e">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="08475748-bc98-43fd-b55b-f24ec79abec0">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="c266c67c-bae4-4769-992c-99f8f1bbde65">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="0938005c-ca92-4466-85c9-dfca393d3789">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="bc6f2a72-34d5-4c98-9f62-e7ce5355843f">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="7b10502e-552f-4106-864c-56f9b48af2b4">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="99850638-6a86-4a4e-8947-0a1cd1998fa3">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <keyed-attribute id="2ff18d3a-894a-4be1-6d5c-39d97245160a" key-ref="3b0e5176-ca31-4706-a508-092e3c17daa2" name="Product Line">
+      <properties>
+        <caption>Product Line</caption>
+        <visible>false</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+        <description>Product Line</description>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="aa282783-d9e3-45ae-646d-f075873f8620" key-ref="b75e5589-2223-4250-ac17-ff7b86120852" name="Product Category">
+      <properties>
+        <caption>Product Category</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+        <description>Product Sub Category</description>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="bf1855e0-1964-4380-70d7-791cf663bccb" key-ref="a61e6302-b896-4c21-ae6f-b60852d6719c" name="Product Name">
+      <properties>
+        <caption>Product Name</caption>
+        <visible>false</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+        <description>Full Product Name</description>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="82c14308-3f56-4244-499d-756e80488e64" key-ref="fcbf6329-8833-448f-8bac-78cc3f1ffd7c" name="Customer Name">
+      <properties>
+        <caption>Customer Name</caption>
+        <visible>false</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+        <description>Customer Key</description>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="cd5089b9-e228-45fa-7507-e74fcf88617d" key-ref="44f3841f-61fd-42d3-a664-75e27b4420b8" name="Occupation">
+      <properties>
+        <caption>Occupation</caption>
+        <visible>true</visible>
+        <folder>Customer Attributes</folder>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="c0bbeb6f-d74c-45f9-43c7-1e5bb8b4bf62" key-ref="69869466-5e95-4103-bada-f36755d25488" name="Gender">
+      <properties>
+        <caption>Gender</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="7ec4a457-060d-4500-7009-8329fd183b3c" key-ref="abd7c7e8-8579-40e3-aa2e-cf448230a752" name="GeoKeyCity">
+      <properties>
+        <caption>GeoKey</caption>
+        <visible>false</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="e0c43261-f493-4135-4cb0-3695ebc8c556" key-ref="aaaa89cd-8974-4540-a835-47fa536eefc2" name="City">
+      <properties>
+        <caption>City</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="5eb5cc5d-535b-4da6-4872-d40dde5ab79d" key-ref="85aa0d05-e247-4b1e-8d8d-059fc5f2f6d6" name="State">
+      <properties>
+        <caption>State</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="ad129531-b5bc-4ba9-5a5f-292c36c47085" key-ref="a5fc25d5-cc4f-43e5-b308-7f8ec879891c" name="CountryCity">
+      <properties>
+        <caption>Country</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="fe14c43c-90af-4627-486d-f208aaf30adc" key-ref="2aa5ce88-e160-4845-8a6c-8960adefd6a9" name="GeoKeyZip">
+      <properties>
+        <caption>GeoKey</caption>
+        <visible>false</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="e93b04bf-d379-462d-5612-dbddcbb59d26" key-ref="ca8df572-e71c-4ca7-83ec-dd7db2d5b0e4" name="Zip Code">
+      <properties>
+        <caption>Zip Code</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="6e87c719-0090-47b7-6b2c-cfd771169e4e" key-ref="7e509dab-7781-4d7a-afca-0b48384468f0" name="CountryZip">
+      <properties>
+        <caption>Country</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="5bc35102-7c0f-47e9-5571-a3406599c339" key-ref="e533d893-1852-4d88-9cbe-f115323f5356" name="order_line_item">
+      <properties>
+        <caption>Order Line Item</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+        <description>Order Line Item</description>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="b5bf00e3-be7d-4401-51c2-7e3f924e3ead" key-ref="e41a7aa7-2848-4e71-88a3-0abb2284c805" name="currency">
+      <properties>
+        <caption>Currency</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="c6dcb549-c1c8-40db-71ec-7acdacdfb1d5" key-ref="f541b9e0-9316-4872-b2e7-10bec1ec05df" name="typeorder">
+      <properties>
+        <caption>Order Type</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="9fa10942-ab4b-4c2f-4f83-78790386ce20" key-ref="65862f05-a47f-47ff-b854-5a9ffe41b85a" name="DayMonth">
+      <properties>
+        <caption>Day</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+        <description>Date as YYYYMMDD or YYYY-MM-DD</description>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="c8998954-631b-417b-7fef-ba393cf098ee" key-ref="18a5d527-78af-4d61-bfae-83d386e079b8" name="d_day_name">
+      <properties>
+        <caption>Day Name</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+        <description>dd-mm-yyy</description>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="cf6a7a3e-f5fe-40d8-796f-a79ab1052aa3" key-ref="2e720366-c1ff-4aeb-9c71-9fd0afddc80e" name="d_day_of_week_number">
+      <properties>
+        <caption>Day Of Week Number</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="4d5e847f-bc8a-4b5f-4c7e-8508253c1d36" key-ref="17cdd59a-05f0-410f-afdb-42275fa8c93d" name="d_day_of_month">
+      <properties>
+        <caption>Day Of Month</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="fab8c8bf-b3b7-46a9-4bbb-43e55b980db8" key-ref="2d4ab311-1b2a-442d-b23b-d790b55c35e1" name="d_day_of_week_name">
+      <properties>
+        <caption>Day Of Week Name</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="597ea948-2e0a-4cf6-41d4-864ea15d91f7" key-ref="66653614-8f36-40d7-a9dc-611cab2b011e" name="d_day_of_week_abbreviation">
+      <properties>
+        <caption>Day Of Week Abbreviation</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="51cc38bb-33a1-4404-730d-c2d8b02d89bb" key-ref="80a1d740-0700-4139-b7ea-eee3608d43df" name="d_weekly_day_name">
+      <properties>
+        <caption>Weekly Day Name</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="665cb339-c0e3-4e8f-640b-2f056b04120a" key-ref="03417c99-924c-42e7-b1b8-afea9dbe8d67" name="Month">
+      <properties>
+        <caption>Month</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="183f98cd-f26a-42ae-6d7f-0b681f6278a1" key-ref="371f9019-3e4f-4714-8cf4-042312b783e2" name="d_month_abbreviation">
+      <properties>
+        <caption>Month Abbreviation</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="35f2f0b0-0a0e-47c3-5695-ea8d7d7a2191" key-ref="10684a7b-780c-46bc-b5b4-ed86fb975d12" name="Quarter">
+      <properties>
+        <caption>Quarter</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+        <description>Calendar Quarter</description>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="acbb06ea-cb48-423c-74bc-b7f7e5bb04ef" key-ref="81fd8a73-43f5-4ce1-8028-4b84224df2dd" name="YearMonth">
+      <properties>
+        <caption>Year</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+        <description>Calendar Year for Month Hierarchy</description>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="86483e93-fb4e-4b90-5b93-6e55b6a473e3" key-ref="5a3062a1-e4bd-4b5d-bb2b-25378b53cfff" name="order">
+      <properties>
+        <caption>Order</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="ecfe6ad8-ca98-4cce-76fb-7c455aa9f9bf" key-ref="ce8fe5e8-fda4-4922-aacb-ce1731fe5357" name="DayWeek">
+      <properties>
+        <caption>Day</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="74d99e6f-5f18-4454-6e98-af91cd6d2702" key-ref="ffe9ddd7-e5c8-4aa2-bad0-0e6e47188023" name="Week">
+      <properties>
+        <caption>Week</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="e5fa8e0c-7f7c-40b1-598a-0b1ef9cffb7e" key-ref="70a4fa22-bea2-444c-bd7e-5b9cdffbfb4d" name="YearWeek">
+      <properties>
+        <caption>Year</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="f5f3a2f4-c3ca-404a-63ce-d81b197f00f1" key-ref="15715cfd-b548-4f25-9e00-42eaad7f2827" name="w_day_of_week_number">
+      <properties>
+        <caption>W Day Of Week Number</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="e249ef75-c49e-40b1-4d07-82650f5fa2af" key-ref="5b6b6dac-0fd5-40f5-a134-01c0f7effbf6" name="w_day_of_week_name">
+      <properties>
+        <caption>W Day Of Week Name</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="774ec31e-ae86-4255-7e5e-720a2fe94902" key-ref="a1ce2262-9f06-4ccb-858a-abc49d2537a1" name="w_day_of_week_abbreviation">
+      <properties>
+        <caption>W Day Of Week Abbreviation</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="ffcd8dcc-c2db-40d4-4879-4ca70c6b19c0" key-ref="c6006d52-d538-4d62-9d7f-d9b790c4e381" name="d_quarter_number">
+      <properties>
+        <caption>Quarter Number</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="69167d91-89db-4549-4f2c-8ad20ab2610d" key-ref="29e49cc8-921b-4830-bc16-cb690bd1270e" name="d_month_of_year">
+      <properties>
+        <caption>Month Of Year</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="05a37b25-6e02-442e-66a5-ba700cf930cd" key-ref="08475748-bc98-43fd-b55b-f24ec79abec0" name="d_week_of_year">
+      <properties>
+        <caption>Week Of Year</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="08be6891-02a6-4a68-57c9-989594205cec" key-ref="c266c67c-bae4-4769-992c-99f8f1bbde65" name="d_productsubcategoryId">
+      <properties>
+        <caption>Product Subcategory ID</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+        <description>ID of the product category</description>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="5b4a6a27-46e0-495f-53d5-9c539ca213bf" key-ref="0938005c-ca92-4466-85c9-dfca393d3789" name="d_lastname">
+      <properties>
+        <caption>Last Name</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="3a7a7015-3f8b-4ac7-65b6-924d59dfff64" key-ref="bc6f2a72-34d5-4c98-9f62-e7ce5355843f" name="d_firstname">
+      <properties>
+        <caption>First Name</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="96dfab8f-1f25-41b1-7b78-3899bcaba2ee" key-ref="7b10502e-552f-4106-864c-56f9b48af2b4" name="d_postalcode">
+      <properties>
+        <caption>Postal Code</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="2d540f8b-8fd5-48b9-53b3-c4fe2720477b" key-ref="99850638-6a86-4a4e-8947-0a1cd1998fa3" name="d_city">
+      <properties>
+        <caption>City</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <attribute id="9f91005e-58c5-43b4-6df0-f6952c56b251" name="List Price">
+      <properties>
+        <caption>List Price</caption>
+        <visible>true</visible>
+        <folder>Product Metrics</folder>
+        <type>
+          <measure>
+            <default-aggregation>SUM</default-aggregation>
+          </measure>
+        </type>
+      </properties>
+    </attribute>
+  </attributes>
+  <dimensions>
+    <dimension id="80065f85-6bdd-435e-6540-2c3a61430a56" name="Product Dimension">
+      <properties>
+        <visible>true</visible>
+        <description>Product Line, Category, and Name</description>
+      </properties>
+      <hierarchy id="9bf44374-c106-4ab3-9c6a-d68474e9b25f" name="Product Dimension">
+        <properties>
+          <caption>Product Hierarchy</caption>
+          <visible>true</visible>
+          <folder>Product Attributes</folder>
+          <filter-empty>Always</filter-empty>
+        </properties>
+        <level primary-attribute="2ff18d3a-894a-4be1-6d5c-39d97245160a">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="aa282783-d9e3-45ae-646d-f075873f8620">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <keyed-attribute-ref attribute-id="08be6891-02a6-4a68-57c9-989594205cec">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+        </level>
+        <level primary-attribute="bf1855e0-1964-4380-70d7-791cf663bccb">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <attribute-ref attribute-id="9f91005e-58c5-43b4-6df0-f6952c56b251"></attribute-ref>
+        </level>
+      </hierarchy>
+    </dimension>
+    <dimension id="76f2096f-610a-4430-5a68-9a3d89924bb7" name="Customer Dimension">
+      <properties>
+        <visible>true</visible>
+        <description>Customer Key</description>
+      </properties>
+      <hierarchy id="9c0a97ef-375b-4bf9-a4d9-4638571fdb54" name="Customer Hierarchy">
+        <properties>
+          <caption>Customer Hierarchy</caption>
+          <visible>true</visible>
+          <folder>Customer Attributes</folder>
+          <filter-empty>Always</filter-empty>
+        </properties>
+        <level primary-attribute="82c14308-3f56-4244-499d-756e80488e64">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <keyed-attribute-ref attribute-id="cd5089b9-e228-45fa-7507-e74fcf88617d">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="c0bbeb6f-d74c-45f9-43c7-1e5bb8b4bf62" ref-id="8e5f2b5c-427c-4796-8424-13ce0963ca5a">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="7ec4a457-060d-4500-7009-8329fd183b3c" ref-id="6b214415-7672-4e61-a2bf-29052a6c9639">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="fe14c43c-90af-4627-486d-f208aaf30adc" ref-id="c62150ce-3035-43bf-8a21-906560404d2b">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="5b4a6a27-46e0-495f-53d5-9c539ca213bf">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="3a7a7015-3f8b-4ac7-65b6-924d59dfff64">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+        </level>
+      </hierarchy>
+    </dimension>
+    <dimension id="d914f5e5-0a36-419f-5d5b-3eae9899f402" name="Gender Dimension">
+      <hierarchy id="2c3e19d8-aa27-4e09-bdb2-e5dc2f868606" name="Gender Hierarchy">
+        <properties>
+          <caption>Gender Hierarchy</caption>
+          <visible>true</visible>
+          <folder>Customer Attributes</folder>
+        </properties>
+        <level primary-attribute="c0bbeb6f-d74c-45f9-43c7-1e5bb8b4bf62"></level>
+      </hierarchy>
+    </dimension>
+    <dimension id="51045a9d-ea35-4fb9-62c9-e97f7f9fe74d" name="Geography Dimension">
+      <properties>
+        <visible>true</visible>
+      </properties>
+      <hierarchy id="b6eea306-cb24-42a7-ade2-cc233baa0b2c" name="Geography City">
+        <properties>
+          <caption>Geography City</caption>
+          <visible>true</visible>
+          <folder>Customer Attributes</folder>
+          <filter-empty>Always</filter-empty>
+        </properties>
+        <level primary-attribute="ad129531-b5bc-4ba9-5a5f-292c36c47085">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="5eb5cc5d-535b-4da6-4872-d40dde5ab79d">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="e0c43261-f493-4135-4cb0-3695ebc8c556">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <keyed-attribute-ref attribute-id="2d540f8b-8fd5-48b9-53b3-c4fe2720477b">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+        </level>
+        <level primary-attribute="7ec4a457-060d-4500-7009-8329fd183b3c">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>false</visible>
+          </properties>
+        </level>
+      </hierarchy>
+      <hierarchy id="59c57f6d-42a4-42ea-98b6-f82495981996" name="Geography Zip">
+        <properties>
+          <caption>Geography Zip</caption>
+          <visible>true</visible>
+          <folder>Customer Attributes</folder>
+          <filter-empty>Always</filter-empty>
+        </properties>
+        <level primary-attribute="6e87c719-0090-47b7-6b2c-cfd771169e4e">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="e93b04bf-d379-462d-5612-dbddcbb59d26">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <keyed-attribute-ref attribute-id="96dfab8f-1f25-41b1-7b78-3899bcaba2ee">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+        </level>
+        <level primary-attribute="fe14c43c-90af-4627-486d-f208aaf30adc">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>false</visible>
+          </properties>
+        </level>
+      </hierarchy>
+    </dimension>
+    <dimension id="dc11fa36-63e8-4beb-7353-c82f05ffa90c" name="Order Dimension">
+      <properties>
+        <visible>true</visible>
+      </properties>
+      <hierarchy id="3c899d09-527b-4584-b793-23f27f74b4e6" name="Order Dimension">
+        <properties>
+          <caption>Order Dimension</caption>
+          <visible>true</visible>
+          <folder>Orders</folder>
+          <filter-empty>Always</filter-empty>
+          <default-member>
+            <all-member></all-member>
+          </default-member>
+        </properties>
+        <level primary-attribute="b5bf00e3-be7d-4401-51c2-7e3f924e3ead">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="86483e93-fb4e-4b90-5b93-6e55b6a473e3">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="5bc35102-7c0f-47e9-5571-a3406599c339">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <keyed-attribute-ref attribute-id="c6dcb549-c1c8-40db-71ec-7acdacdfb1d5">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+        </level>
+      </hierarchy>
+    </dimension>
+    <dimension id="24f2983d-14ae-4d27-767f-e57fba4d2d00" name="Date Dimension">
+      <properties>
+        <visible>true</visible>
+      </properties>
+      <hierarchy id="2318114e-d61f-46b3-a90f-4ec72c667d22" name="Date Month Hierarchy">
+        <properties>
+          <description>Organizes time by Year, Quarter, Month, Day</description>
+          <caption>Date Month Hierarchy</caption>
+          <visible>true</visible>
+          <folder>Date Attributes</folder>
+          <filter-empty>Always</filter-empty>
+          <default-member>
+            <all-member></all-member>
+          </default-member>
+        </properties>
+        <level primary-attribute="acbb06ea-cb48-423c-74bc-b7f7e5bb04ef">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="35f2f0b0-0a0e-47c3-5695-ea8d7d7a2191">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <keyed-attribute-ref attribute-id="ffcd8dcc-c2db-40d4-4879-4ca70c6b19c0">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+        </level>
+        <level primary-attribute="665cb339-c0e3-4e8f-640b-2f056b04120a">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <keyed-attribute-ref attribute-id="183f98cd-f26a-42ae-6d7f-0b681f6278a1">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="69167d91-89db-4549-4f2c-8ad20ab2610d">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+        </level>
+        <level primary-attribute="9fa10942-ab4b-4c2f-4f83-78790386ce20">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <keyed-attribute-ref attribute-id="c8998954-631b-417b-7fef-ba393cf098ee">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="cf6a7a3e-f5fe-40d8-796f-a79ab1052aa3">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="4d5e847f-bc8a-4b5f-4c7e-8508253c1d36">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="fab8c8bf-b3b7-46a9-4bbb-43e55b980db8">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="597ea948-2e0a-4cf6-41d4-864ea15d91f7">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="51cc38bb-33a1-4404-730d-c2d8b02d89bb">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+        </level>
+      </hierarchy>
+      <hierarchy id="80c9c3ca-0af8-4d95-a4fc-ad153957a4af" name="Date Week Hierarchy">
+        <properties>
+          <caption>Date Week Hierarchy</caption>
+          <visible>true</visible>
+          <folder>Date Attributes</folder>
+          <filter-empty>Always</filter-empty>
+          <default-member>
+            <all-member></all-member>
+          </default-member>
+        </properties>
+        <level primary-attribute="e5fa8e0c-7f7c-40b1-598a-0b1ef9cffb7e">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="74d99e6f-5f18-4454-6e98-af91cd6d2702">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <keyed-attribute-ref attribute-id="05a37b25-6e02-442e-66a5-ba700cf930cd">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+        </level>
+        <level primary-attribute="ecfe6ad8-ca98-4cce-76fb-7c455aa9f9bf">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+          <keyed-attribute-ref attribute-id="f5f3a2f4-c3ca-404a-63ce-d81b197f00f1">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="e249ef75-c49e-40b1-4d07-82650f5fa2af">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+          <keyed-attribute-ref attribute-id="774ec31e-ae86-4255-7e5e-720a2fe94902">
+            <properties>
+              <multiplicity></multiplicity>
+            </properties>
+          </keyed-attribute-ref>
+        </level>
+      </hierarchy>
+    </dimension>
+  </dimensions>
+  <data-sets>
+    <data-set id="599fb304-baa5-48d9-6730-18127e5cc23c" name="dim_date_day">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_date_day</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>month_id</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>month_id_expanded</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>month_of_year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>month_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>month_abbreviation</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>day_id</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>day_id_expanded</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>day_of_month</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>day_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>quarter_id</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>quarter_number</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>quarter_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>week_id</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>week_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>week_year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>week_of_year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>day_of_week_number</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>day_of_week_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>day_of_week_abbreviation</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>weekly_day_name</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="65862f05-a47f-47ff-b854-5a9ffe41b85a" unique="true" complete="true">
+          <column>day_id</column>
+        </key-ref>
+        <key-ref id="18a5d527-78af-4d61-bfae-83d386e079b8" unique="false" complete="true">
+          <column>day_name</column>
+        </key-ref>
+        <key-ref id="2e720366-c1ff-4aeb-9c71-9fd0afddc80e" unique="false" complete="true">
+          <column>day_of_week_number</column>
+        </key-ref>
+        <key-ref id="17cdd59a-05f0-410f-afdb-42275fa8c93d" unique="false" complete="true">
+          <column>day_of_month</column>
+        </key-ref>
+        <key-ref id="2d4ab311-1b2a-442d-b23b-d790b55c35e1" unique="false" complete="true">
+          <column>day_of_week_name</column>
+        </key-ref>
+        <key-ref id="66653614-8f36-40d7-a9dc-611cab2b011e" unique="false" complete="true">
+          <column>day_of_week_abbreviation</column>
+        </key-ref>
+        <key-ref id="80a1d740-0700-4139-b7ea-eee3608d43df" unique="false" complete="true">
+          <column>weekly_day_name</column>
+        </key-ref>
+        <key-ref id="03417c99-924c-42e7-b1b8-afea9dbe8d67" unique="false" complete="true">
+          <column>year</column>
+          <column>month_id</column>
+        </key-ref>
+        <key-ref id="371f9019-3e4f-4714-8cf4-042312b783e2" unique="false" complete="true">
+          <column>month_abbreviation</column>
+        </key-ref>
+        <key-ref id="10684a7b-780c-46bc-b5b4-ed86fb975d12" unique="false" complete="true">
+          <column>year</column>
+          <column>quarter_number</column>
+        </key-ref>
+        <key-ref id="81fd8a73-43f5-4ce1-8028-4b84224df2dd" unique="false" complete="true">
+          <column>year</column>
+        </key-ref>
+        <key-ref id="ce8fe5e8-fda4-4922-aacb-ce1731fe5357" unique="true" complete="true">
+          <column>day_id</column>
+        </key-ref>
+        <key-ref id="ffe9ddd7-e5c8-4aa2-bad0-0e6e47188023" unique="false" complete="true">
+          <column>week_year</column>
+          <column>week_of_year</column>
+        </key-ref>
+        <key-ref id="70a4fa22-bea2-444c-bd7e-5b9cdffbfb4d" unique="false" complete="true">
+          <column>week_year</column>
+        </key-ref>
+        <key-ref id="15715cfd-b548-4f25-9e00-42eaad7f2827" unique="false" complete="true">
+          <column>day_of_week_number</column>
+        </key-ref>
+        <key-ref id="5b6b6dac-0fd5-40f5-a134-01c0f7effbf6" unique="false" complete="true">
+          <column>day_of_week_name</column>
+        </key-ref>
+        <key-ref id="a1ce2262-9f06-4ccb-858a-abc49d2537a1" unique="false" complete="true">
+          <column>day_of_week_abbreviation</column>
+        </key-ref>
+        <key-ref id="c6006d52-d538-4d62-9d7f-d9b790c4e381" unique="false" complete="true">
+          <column>quarter_number</column>
+        </key-ref>
+        <key-ref id="29e49cc8-921b-4830-bc16-cb690bd1270e" unique="false" complete="true">
+          <column>month_of_year</column>
+        </key-ref>
+        <key-ref id="08475748-bc98-43fd-b55b-f24ec79abec0" unique="false" complete="true">
+          <column>week_of_year</column>
+        </key-ref>
+        <attribute-ref id="9fa10942-ab4b-4c2f-4f83-78790386ce20" complete="true">
+          <column>day_id_expanded</column>
+        </attribute-ref>
+        <attribute-ref id="c8998954-631b-417b-7fef-ba393cf098ee" complete="true">
+          <column>day_name</column>
+        </attribute-ref>
+        <attribute-ref id="cf6a7a3e-f5fe-40d8-796f-a79ab1052aa3" complete="true">
+          <column>day_of_week_number</column>
+        </attribute-ref>
+        <attribute-ref id="4d5e847f-bc8a-4b5f-4c7e-8508253c1d36" complete="true">
+          <column>day_of_month</column>
+        </attribute-ref>
+        <attribute-ref id="fab8c8bf-b3b7-46a9-4bbb-43e55b980db8" complete="true">
+          <column>day_of_week_name</column>
+        </attribute-ref>
+        <attribute-ref id="597ea948-2e0a-4cf6-41d4-864ea15d91f7" complete="true">
+          <column>day_of_week_abbreviation</column>
+        </attribute-ref>
+        <attribute-ref id="51cc38bb-33a1-4404-730d-c2d8b02d89bb" complete="true">
+          <column>weekly_day_name</column>
+        </attribute-ref>
+        <attribute-ref id="665cb339-c0e3-4e8f-640b-2f056b04120a" complete="true">
+          <column>month_id_expanded</column>
+        </attribute-ref>
+        <attribute-ref id="183f98cd-f26a-42ae-6d7f-0b681f6278a1" complete="true">
+          <column>month_abbreviation</column>
+        </attribute-ref>
+        <attribute-ref id="35f2f0b0-0a0e-47c3-5695-ea8d7d7a2191" complete="true">
+          <column>quarter_name</column>
+        </attribute-ref>
+        <attribute-ref id="acbb06ea-cb48-423c-74bc-b7f7e5bb04ef" complete="true">
+          <column>year</column>
+        </attribute-ref>
+        <attribute-ref id="ecfe6ad8-ca98-4cce-76fb-7c455aa9f9bf" complete="true">
+          <column>day_id_expanded</column>
+        </attribute-ref>
+        <attribute-ref id="74d99e6f-5f18-4454-6e98-af91cd6d2702" complete="true">
+          <column>week_name</column>
+        </attribute-ref>
+        <attribute-ref id="e5fa8e0c-7f7c-40b1-598a-0b1ef9cffb7e" complete="true">
+          <column>week_year</column>
+        </attribute-ref>
+        <attribute-ref id="f5f3a2f4-c3ca-404a-63ce-d81b197f00f1" complete="true">
+          <column>day_of_week_number</column>
+        </attribute-ref>
+        <attribute-ref id="e249ef75-c49e-40b1-4d07-82650f5fa2af" complete="true">
+          <column>day_of_week_name</column>
+        </attribute-ref>
+        <attribute-ref id="774ec31e-ae86-4255-7e5e-720a2fe94902" complete="true">
+          <column>day_of_week_abbreviation</column>
+        </attribute-ref>
+        <attribute-ref id="ffcd8dcc-c2db-40d4-4879-4ca70c6b19c0" complete="true">
+          <column>quarter_number</column>
+        </attribute-ref>
+        <attribute-ref id="69167d91-89db-4549-4f2c-8ad20ab2610d" complete="true">
+          <column>month_of_year</column>
+        </attribute-ref>
+        <attribute-ref id="05a37b25-6e02-442e-66a5-ba700cf930cd" complete="true">
+          <column>week_of_year</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="8bca125b-63db-4a4e-6ec8-3da515d4ce51" name="dim_date_hour">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_date_hour</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>hour_id</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>hour_id_expanded</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>hour_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>hour_of_day</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>month_id</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>month_id_expanded</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>month_of_year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>month_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>month_abbreviation</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>day_id</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>day_id_expanded</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>day_of_month</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>day_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>quarter_id</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>quarter_number</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>quarter_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>week_id</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>week_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>week_year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>week_of_year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>day_of_week_number</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>day_of_week_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>day_of_week_abbreviation</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>weekly_day_name</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="2717b30d-7d72-481c-5d63-5a8a3e8ef5ae" name="dim_date_month">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_date_month</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>month_id</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>month_id_expanded</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>month_of_year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>month_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>month_abbreviation</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>quarter_id</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>quarter_number</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>quarter_name</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="57e42f09-8793-4d9a-7945-cc7a475f6510" name="dim_date_quarter">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_date_quarter</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>quarter_id</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>quarter_number</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>quarter_name</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="9d098152-7b81-4d93-7408-2ce886d41451" name="dim_date_week">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_date_week</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>week_id</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>week_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>week_year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>week_of_year</name>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="8d2f15d9-57da-4385-5afb-fb3281a2844e" name="dim_date_weekyear">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_date_weekyear</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>week_year</name>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="aeccaf7a-f4ea-48d8-6a61-921fb0111075" name="dim_date_year">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_date_year</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>year</name>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="5030c626-9c4b-4081-5003-22058ee526cc" name="dim_geo_city">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_geo_city</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>geographykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>city</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>statekey</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>citystatekey</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="abd7c7e8-8579-40e3-aa2e-cf448230a752" unique="true" complete="true">
+          <column>geographykey</column>
+        </key-ref>
+        <key-ref id="aaaa89cd-8974-4540-a835-47fa536eefc2" unique="false" complete="true">
+          <column>statekey</column>
+          <column>city</column>
+        </key-ref>
+        <key-ref id="85aa0d05-e247-4b1e-8d8d-059fc5f2f6d6" unique="false" complete="false">
+          <column>statekey</column>
+        </key-ref>
+        <key-ref id="99850638-6a86-4a4e-8947-0a1cd1998fa3" unique="false" complete="true">
+          <column>city</column>
+        </key-ref>
+        <attribute-ref id="7ec4a457-060d-4500-7009-8329fd183b3c" complete="true">
+          <column>geographykey</column>
+        </attribute-ref>
+        <attribute-ref id="e0c43261-f493-4135-4cb0-3695ebc8c556" complete="true">
+          <column>citystatekey</column>
+        </attribute-ref>
+        <attribute-ref id="2d540f8b-8fd5-48b9-53b3-c4fe2720477b" complete="true">
+          <column>city</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="a65ca7a9-aeff-4ba8-51ed-746d4648d078" name="dim_geo_country">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_geo_country</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>country</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="a5fc25d5-cc4f-43e5-b308-7f8ec879891c" unique="true" complete="true">
+          <column>country</column>
+        </key-ref>
+        <key-ref id="7e509dab-7781-4d7a-afca-0b48384468f0" unique="false" complete="true">
+          <column>country</column>
+        </key-ref>
+        <attribute-ref id="ad129531-b5bc-4ba9-5a5f-292c36c47085" complete="true">
+          <column>country</column>
+        </attribute-ref>
+        <attribute-ref id="6e87c719-0090-47b7-6b2c-cfd771169e4e" complete="true">
+          <column>country</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="97ebf1ef-9cb3-48a6-6e66-80f70c4d43c7" name="dim_geo_postalcode">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_geo_postalcode</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>geographykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>postalcode</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>country</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>countrypostalcode</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="2aa5ce88-e160-4845-8a6c-8960adefd6a9" unique="true" complete="true">
+          <column>geographykey</column>
+        </key-ref>
+        <key-ref id="ca8df572-e71c-4ca7-83ec-dd7db2d5b0e4" unique="true" complete="true">
+          <column>country</column>
+          <column>postalcode</column>
+        </key-ref>
+        <key-ref id="7e509dab-7781-4d7a-afca-0b48384468f0" unique="false" complete="false">
+          <column>country</column>
+        </key-ref>
+        <key-ref id="7b10502e-552f-4106-864c-56f9b48af2b4" unique="false" complete="true">
+          <column>postalcode</column>
+        </key-ref>
+        <attribute-ref id="fe14c43c-90af-4627-486d-f208aaf30adc" complete="true">
+          <column>geographykey</column>
+        </attribute-ref>
+        <attribute-ref id="e93b04bf-d379-462d-5612-dbddcbb59d26" complete="true">
+          <column>countrypostalcode</column>
+        </attribute-ref>
+        <attribute-ref id="96dfab8f-1f25-41b1-7b78-3899bcaba2ee" complete="true">
+          <column>postalcode</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="1d800392-695c-42c0-769b-bb8aad9fe5ac" name="dim_geo_state">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dim_geo_state</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>statekey</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>state</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>country</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="85aa0d05-e247-4b1e-8d8d-059fc5f2f6d6" unique="true" complete="true">
+          <column>statekey</column>
+        </key-ref>
+        <key-ref id="a5fc25d5-cc4f-43e5-b308-7f8ec879891c" unique="false" complete="false">
+          <column>country</column>
+        </key-ref>
+        <attribute-ref id="5eb5cc5d-535b-4da6-4872-d40dde5ab79d" complete="true">
+          <column>state</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="333e0343-017b-433b-4f68-bc456ccaf3c0" name="dimcurrency">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dimcurrency</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>currencykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>currencyalternatekey</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>currencyname</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="f277c092-0a6d-47cf-4d14-276032951933" name="dimcustomer">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dimcustomer</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>customerkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>geographykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>firstname</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>lastname</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>gender</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>datefirstpurchase</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>occupation</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>fullname</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="fcbf6329-8833-448f-8bac-78cc3f1ffd7c" unique="true" complete="true">
+          <column>customerkey</column>
+        </key-ref>
+        <key-ref id="44f3841f-61fd-42d3-a664-75e27b4420b8" unique="false" complete="true">
+          <column>occupation</column>
+        </key-ref>
+        <key-ref id="69869466-5e95-4103-bada-f36755d25488" unique="false" complete="false">
+          <ref-path>
+            <ref id="8e5f2b5c-427c-4796-8424-13ce0963ca5a"></ref>
+          </ref-path>
+          <column>gender</column>
+        </key-ref>
+        <key-ref id="abd7c7e8-8579-40e3-aa2e-cf448230a752" unique="false" complete="false">
+          <ref-path>
+            <ref id="6b214415-7672-4e61-a2bf-29052a6c9639"></ref>
+          </ref-path>
+          <column>geographykey</column>
+        </key-ref>
+        <key-ref id="2aa5ce88-e160-4845-8a6c-8960adefd6a9" unique="false" complete="false">
+          <ref-path>
+            <ref id="c62150ce-3035-43bf-8a21-906560404d2b"></ref>
+          </ref-path>
+          <column>geographykey</column>
+        </key-ref>
+        <key-ref id="0938005c-ca92-4466-85c9-dfca393d3789" unique="false" complete="true">
+          <column>lastname</column>
+        </key-ref>
+        <key-ref id="bc6f2a72-34d5-4c98-9f62-e7ce5355843f" unique="false" complete="true">
+          <column>firstname</column>
+        </key-ref>
+        <attribute-ref id="82c14308-3f56-4244-499d-756e80488e64" complete="true">
+          <column>fullname</column>
+        </attribute-ref>
+        <attribute-ref id="cd5089b9-e228-45fa-7507-e74fcf88617d" complete="true">
+          <column>occupation</column>
+        </attribute-ref>
+        <attribute-ref id="5b4a6a27-46e0-495f-53d5-9c539ca213bf" complete="true">
+          <column>lastname</column>
+        </attribute-ref>
+        <attribute-ref id="3a7a7015-3f8b-4ac7-65b6-924d59dfff64" complete="true">
+          <column>firstname</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="66c94bf9-ad63-47bb-58a2-247740561d7a" name="dimdate">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>as_adventure</schema>
+          <name>dimdate</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>datekey</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>fulldatealternatekey</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>daynumberofweek</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>englishdaynameofweek</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>daynumberofmonth</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>weeknumberofyear</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>englishmonthname</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>monthnumberofyear</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>calendarquarter</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>calendaryear</name>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="8e910648-c7ad-41bd-6d10-6695211b671e" name="dimgender">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dimgender</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>genderkey</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>gendername</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="69869466-5e95-4103-bada-f36755d25488" unique="true" complete="true">
+          <column>genderkey</column>
+        </key-ref>
+        <attribute-ref id="c0bbeb6f-d74c-45f9-43c7-1e5bb8b4bf62" complete="true">
+          <column>gendername</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="a450d8ab-24a9-4e57-7e33-5c912eaeadc1" name="dimgeography">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dimgeography</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>geographykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>city</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>stateprovincename</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>englishcountryregionname</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>postalcode</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="3fd201c4-adf3-494b-6ed1-3bd18ecee52d" name="dimorder">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dimorder</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>salesordernumber</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>salesorderlinenumber</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>ordername</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>linename</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>type</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>currencykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>currency_name</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>ordernumberlinekey</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="e533d893-1852-4d88-9cbe-f115323f5356" unique="true" complete="true">
+          <column>salesordernumber</column>
+          <column>salesorderlinenumber</column>
+        </key-ref>
+        <key-ref id="e41a7aa7-2848-4e71-88a3-0abb2284c805" unique="false" complete="true">
+          <column>currencykey</column>
+        </key-ref>
+        <key-ref id="f541b9e0-9316-4872-b2e7-10bec1ec05df" unique="false" complete="true">
+          <column>type</column>
+        </key-ref>
+        <key-ref id="5a3062a1-e4bd-4b5d-bb2b-25378b53cfff" unique="false" complete="true">
+          <column>salesordernumber</column>
+        </key-ref>
+        <attribute-ref id="5bc35102-7c0f-47e9-5571-a3406599c339" complete="true">
+          <column>ordernumberlinekey</column>
+        </attribute-ref>
+        <attribute-ref id="b5bf00e3-be7d-4401-51c2-7e3f924e3ead" complete="true">
+          <column>currency_name</column>
+        </attribute-ref>
+        <attribute-ref id="c6dcb549-c1c8-40db-71ec-7acdacdfb1d5" complete="true">
+          <column>type</column>
+        </attribute-ref>
+        <attribute-ref id="86483e93-fb4e-4b90-5b93-6e55b6a473e3" complete="true">
+          <column>salesordernumber</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="826d892b-86fd-4274-4a40-9a74081d14f7" name="dimproduct">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dimproduct</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>productkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>englishproductname</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>listprice</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>startdate</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>productsubcategorykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>productline</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>productsubcategoryname</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="3b0e5176-ca31-4706-a508-092e3c17daa2" unique="false" complete="true">
+          <column>productline</column>
+        </key-ref>
+        <key-ref id="b75e5589-2223-4250-ac17-ff7b86120852" unique="false" complete="true">
+          <column>productline</column>
+          <column>productsubcategorykey</column>
+        </key-ref>
+        <key-ref id="a61e6302-b896-4c21-ae6f-b60852d6719c" unique="true" complete="true">
+          <column>productkey</column>
+        </key-ref>
+        <key-ref id="c266c67c-bae4-4769-992c-99f8f1bbde65" unique="false" complete="true">
+          <column>productsubcategorykey</column>
+        </key-ref>
+        <attribute-ref id="2ff18d3a-894a-4be1-6d5c-39d97245160a" complete="true">
+          <column>productline</column>
+        </attribute-ref>
+        <attribute-ref id="aa282783-d9e3-45ae-646d-f075873f8620" complete="true">
+          <column>productsubcategoryname</column>
+        </attribute-ref>
+        <attribute-ref id="bf1855e0-1964-4380-70d7-791cf663bccb" complete="true">
+          <column>englishproductname</column>
+        </attribute-ref>
+        <attribute-ref id="9f91005e-58c5-43b4-6df0-f6952c56b251" complete="true">
+          <column>listprice</column>
+        </attribute-ref>
+        <attribute-ref id="08be6891-02a6-4a68-57c9-989594205cec" complete="true">
+          <column>productsubcategorykey</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="fb16d497-1c3d-4791-6d9b-701521fd9741" name="dimproductcategory">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dimproductcategory</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>productcategorykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>productcategoryalternatekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>productcategoryname</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="1613db9f-cb7a-4013-4e12-85a891e8ef72" name="dimproductsubcategory">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dimproductsubcategory</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>productsubcategorykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>productsubcategoryalternatekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>productsubcategoryname</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>productcategorykey</name>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="792a2873-4910-4517-7610-b014831e3bca" name="dimsalesreason">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dimsalesreason</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>salesreasonkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>salesreasonname</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>salesreasongroup</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="78a28d55-d498-4280-5c83-2699feb7b784" name="dimstyle">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>dimstyle</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>stylekey</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>stylename</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="557b58f3-8439-4ac3-4d78-0518910e011b" name="fact_partitioned">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>fact_partitioned</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>ordernumber</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>linenumber</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>eventname</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>type</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>huge_amount</name>
+          <type>Decimal</type>
+        </column>
+        <column>
+          <name>big_amount</name>
+          <type>Decimal</type>
+        </column>
+        <column>
+          <name>reg_amount</name>
+          <type>Decimal</type>
+        </column>
+        <column>
+          <name>tiny_amount</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>year</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>month</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>day</name>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="2bd5a740-426a-41a4-5a0b-03b337b0a6dd" name="factcurrencyrate">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>factcurrencyrate</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>currencykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>datekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>averagerate</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>endofdayrate</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>fulldate</name>
+          <type>DateTime</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="22b5d3c0-7338-4b45-681d-cd5b4404ee42" name="factdemotab">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>factdemotab</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>salesordernumber</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>salesorderlinenumber</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>productkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>orderdatekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>customerkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>orderquantity</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>unitprice</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>salesamount</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>taxamt</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>orderdate</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>color</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>size</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>weight</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>style</name>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="f79aea6b-f115-4c0a-4c3d-a604c7bc7b23" name="factinternetsales">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>factinternetsales</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>salesordernumber</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>salesorderlinenumber</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>sales_reasons</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>productkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>product_info</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>orderdatekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>customerkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>orderquantity</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>unitprice</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>salesamount</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>taxamt</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>orderdate</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>shipdatekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>currencykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>Calculated Tax</name>
+          <sql>salesamount*0.085</sql>
+          <sql dialect="Snowflake">&#34;salesamount&#34;*0.085</sql>
+          <type>Double</type>
+        </column>
+        <map-column>
+          <name>product_info</name>
+          <delimited>
+            <field-terminator>,</field-terminator>
+            <key-terminator>:</key-terminator>
+          </delimited>
+          <map-key>
+            <type>String</type>
+          </map-key>
+          <map-value>
+            <type>String</type>
+          </map-value>
+          <columns>
+            <column>
+              <name>color</name>
+              <type>String</type>
+            </column>
+            <column>
+              <name>size</name>
+              <type>String</type>
+            </column>
+            <column>
+              <name>style</name>
+              <type>String</type>
+            </column>
+            <column>
+              <name>weight</name>
+              <type>String</type>
+            </column>
+          </columns>
+        </map-column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="7a196b4e-9bde-45d9-7795-3e570306b413" name="factinternetsalesorig">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>factinternetsalesorig</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>productkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>orderdatekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>duedatekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>shipdatekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>customerkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>promotionkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>currencykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>salesterritorykey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>salesordernumber</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>salesorderlinenumber</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>revisionnumber</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>orderquantity</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>unitprice</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>extendedamount</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>unitpricediscountpct</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>discountamount</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>productstandardcost</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>totalproductcost</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>salesamount</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>taxamt</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>freight</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>carriertrackingnumber</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>customerponumber</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>orderdate</name>
+          <type>DateTime</type>
+        </column>
+        <column>
+          <name>duedate</name>
+          <type>DateTime</type>
+        </column>
+        <column>
+          <name>shipdate</name>
+          <type>DateTime</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="71abd454-b60d-43e1-6313-b017985eeb0e" name="factinternetsalesreason">
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>factinternetsalesreason</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>salesordernumber</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>salesorderlinenumber</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>salesreasonkey</name>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="eee33f2c-7aa1-4ce6-62ad-d62692e83785" name="factsalesoutrigger">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="con1"></connection>
+        <table>
+          <schema>atscale</schema>
+          <name>factsalesoutrigger</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>salesordernumber</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>salesorderlinenumber</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>sales_reasons</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>productkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>product_info</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>orderdatekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>customerkey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>extendedamount</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>unitpricediscountpct</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>discountamount</name>
+          <type>Float</type>
+        </column>
+        <column>
+          <name>productstandardcost</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>totalproductcost</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>freight</name>
+          <type>Double</type>
+        </column>
+        <column>
+          <name>orderdate</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>shipdatekey</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>currencykey</name>
+          <type>Int</type>
+        </column>
+        <map-column>
+          <name>product_info</name>
+          <delimited>
+            <field-terminator>,</field-terminator>
+            <key-terminator>:</key-terminator>
+          </delimited>
+          <map-key>
+            <type>String</type>
+          </map-key>
+          <map-value>
+            <type>String</type>
+          </map-value>
+          <columns>
+            <column>
+              <name>color</name>
+              <type>String</type>
+            </column>
+            <column>
+              <name>style</name>
+              <type>String</type>
+            </column>
+            <column>
+              <name>size</name>
+              <type>String</type>
+            </column>
+            <column>
+              <name>weight</name>
+              <type>Float</type>
+            </column>
+          </columns>
+        </map-column>
+      </physical>
+      <logical></logical>
+    </data-set>
+  </data-sets>
+  <calculated-members>
+    <calculated-member id="3c2e4ce6-ec98-478e-664f-82759577c880" name="Average Sales per Order">
+      <properties>
+        <visible>true</visible>
+        <folder>Sales Metrics</folder>
+      </properties>
+      <expression>([Measures].[salesamount1] / [Measures].[orderquantity1])</expression>
+    </calculated-member>
+  </calculated-members>
+  <cubes>
+    <cube id="737732be-f50e-47c9-7826-920bfe0a9ef5" name="Internet Sales Cube">
+      <properties>
+        <caption>Internet Sales Cube</caption>
+        <visible>true</visible>
+      </properties>
+      <attributes>
+        <attribute-key id="8d62904e-7576-468a-8bb1-457a2048359b">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="23408856-9104-4d44-87a3-dc5b01878e79">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="fcd12e08-47db-4fbc-b498-2f4c0e65e94f">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="454b1295-8726-4577-8b02-24e7ef3a279e">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="ea0784da-3f86-486d-b3b7-1790012544be">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="cc2930a5-3edc-4896-bc26-d58add4625ac">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <keyed-attribute id="c4116c34-3805-40bb-b9c0-2bc9395e3c00" key-ref="fcd12e08-47db-4fbc-b498-2f4c0e65e94f" name="Color">
+          <properties>
+            <caption>Color</caption>
+            <visible>false</visible>
+            <type>
+              <enum></enum>
+            </type>
+            <ordering>
+              <sort-key>
+                <order>ascending</order>
+                <value></value>
+              </sort-key>
+            </ordering>
+            <description>Product Color</description>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="34e6919d-4d0a-4ff1-9c44-1152f3b8ad17" key-ref="454b1295-8726-4577-8b02-24e7ef3a279e" name="Size">
+          <properties>
+            <caption>Size</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="fb3de6f4-d78f-4a38-ba55-661104a96f54" key-ref="ea0784da-3f86-486d-b3b7-1790012544be" name="Style">
+          <properties>
+            <caption>Style</caption>
+            <visible>false</visible>
+            <type>
+              <enum></enum>
+            </type>
+            <ordering>
+              <sort-key>
+                <order>ascending</order>
+                <value></value>
+              </sort-key>
+            </ordering>
+            <description>Product Style</description>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="9c8cabbe-6510-48ca-9648-8bc376c649b2" key-ref="cc2930a5-3edc-4896-bc26-d58add4625ac" name="Weight">
+          <properties>
+            <caption>Weight</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <attribute id="7fb98855-2cc0-4411-a238-21f2f27559a3" name="calculatedtax1">
+          <properties>
+            <caption>Calculated Tax</caption>
+            <visible>true</visible>
+            <folder>Sales Metrics</folder>
+            <formatting>
+              <format-string>$#,##0.00</format-string>
+            </formatting>
+            <type>
+              <measure>
+                <default-aggregation>SUM</default-aggregation>
+              </measure>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="46fe3fe3-5596-467a-9ad8-0626110eac95" name="orderquantity1">
+          <properties>
+            <caption>Order Quantity</caption>
+            <visible>true</visible>
+            <folder>Sales Metrics</folder>
+            <formatting>
+              <named-format>General Number</named-format>
+            </formatting>
+            <type>
+              <measure>
+                <default-aggregation>SUM</default-aggregation>
+              </measure>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="82ae19ad-b038-4230-9ff5-f0b60ab4c3ae" name="salesamount1">
+          <properties>
+            <caption>Sales Amount</caption>
+            <visible>true</visible>
+            <folder>Sales Metrics</folder>
+            <formatting>
+              <format-string>$#,##0.00</format-string>
+            </formatting>
+            <type>
+              <measure>
+                <default-aggregation>SUM</default-aggregation>
+              </measure>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="3b6b9a46-22d8-4ed9-9c4b-12612dfa3675" name="customercount1">
+          <properties>
+            <caption>Customer Count</caption>
+            <visible>true</visible>
+            <folder>Customer Metrics</folder>
+            <formatting>
+              <named-format>General Number</named-format>
+            </formatting>
+            <type>
+              <count-distinct>
+                <key-ref id="8d62904e-7576-468a-8bb1-457a2048359b"></key-ref>
+                <approximate>false</approximate>
+              </count-distinct>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="b68a0ca1-93ba-4807-8b54-f2d2654ca71c" name="customercountestimate1">
+          <properties>
+            <caption>Estimated Customer Count</caption>
+            <visible>true</visible>
+            <folder>Customer Metrics</folder>
+            <formatting>
+              <named-format>General Number</named-format>
+            </formatting>
+            <type>
+              <count-distinct>
+                <key-ref id="23408856-9104-4d44-87a3-dc5b01878e79"></key-ref>
+                <approximate>true</approximate>
+              </count-distinct>
+            </type>
+          </properties>
+        </attribute>
+      </attributes>
+      <dimensions>
+        <dimension id="a2c9682c-0e1e-461d-b9dc-0c034771a016" name="Color Dimension">
+          <properties>
+            <visible>true</visible>
+            <description>Product Color </description>
+          </properties>
+          <hierarchy id="578ff306-e4cb-4de1-9b7e-19c1205524eb" name="Color">
+            <properties>
+              <caption>Color</caption>
+              <visible>true</visible>
+              <folder>Product Attributes</folder>
+              <filter-empty>Always</filter-empty>
+            </properties>
+            <level primary-attribute="c4116c34-3805-40bb-b9c0-2bc9395e3c00">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="4f8077f8-6b43-4538-93cc-a71f12704183" name="Size Dimension">
+          <properties>
+            <visible>true</visible>
+            <description>Product Size</description>
+          </properties>
+          <hierarchy id="1fe21d72-9c6f-4888-b478-a9769114d2f7" name="Size">
+            <properties>
+              <caption>Size</caption>
+              <visible>true</visible>
+              <folder>Product Attributes</folder>
+              <filter-empty>Always</filter-empty>
+            </properties>
+            <level primary-attribute="34e6919d-4d0a-4ff1-9c44-1152f3b8ad17">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="3ca6035f-e3a2-45e9-9fce-0162b2013fae" name="Style Dimension">
+          <properties>
+            <visible>true</visible>
+            <description>Product Style</description>
+          </properties>
+          <hierarchy id="cc906303-59cb-414d-aec7-ac5940dbd93a" name="Style">
+            <properties>
+              <caption>Style</caption>
+              <visible>true</visible>
+              <folder>Product Attributes</folder>
+              <filter-empty>Always</filter-empty>
+            </properties>
+            <level primary-attribute="fb3de6f4-d78f-4a38-ba55-661104a96f54">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="20dc66ab-68f2-4de4-b6ad-b2491ee726a4" name="Weight">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="80c8e774-8433-40b0-9138-f770eeb50348" name="Weight">
+            <properties>
+              <caption>Weight</caption>
+              <visible>true</visible>
+              <folder>Product Attributes</folder>
+              <filter-empty>Yes</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="9c8cabbe-6510-48ca-9648-8bc376c649b2">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+      </dimensions>
+      <actions>
+        <properties>
+          <include-default-drill-through>false</include-default-drill-through>
+        </properties>
+        <drill-through id="e7abf850-d637-4acc-a4a0-9265527b23cr" name="Customer Details">
+          <participants>
+            <attribute-ref id="82c14308-3f56-4244-499d-756e80488e64">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="e0c43261-f493-4135-4cb0-3695ebc8c556">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="5eb5cc5d-535b-4da6-4872-d40dde5ab79d">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="e93b04bf-d379-462d-5612-dbddcbb59d26">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="46fe3fe3-5596-467a-9ad8-0626110eac95">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="82ae19ad-b038-4230-9ff5-f0b60ab4c3ae">
+              <ref-path></ref-path>
+            </attribute-ref>
+          </participants>
+        </drill-through>
+        <drill-through id="e7abf850-d637-4acc-a4a0-9265527b23cq" name="Shipping Details">
+          <participants>
+            <attribute-ref id="82c14308-3f56-4244-499d-756e80488e64">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="bf1855e0-1964-4380-70d7-791cf663bccb">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="c4116c34-3805-40bb-b9c0-2bc9395e3c00">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="34e6919d-4d0a-4ff1-9c44-1152f3b8ad17">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="fb3de6f4-d78f-4a38-ba55-661104a96f54">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="46fe3fe3-5596-467a-9ad8-0626110eac95">
+              <ref-path></ref-path>
+            </attribute-ref>
+            <attribute-ref id="82ae19ad-b038-4230-9ff5-f0b60ab4c3ae">
+              <ref-path></ref-path>
+            </attribute-ref>
+          </participants>
+        </drill-through>
+      </actions>
+      <data-sets>
+        <data-set-ref id="f79aea6b-f115-4c0a-4c3d-a604c7bc7b23">
+          <properties>
+            <allow-aggregates>true</allow-aggregates>
+            <create-hinted-aggregate>false</create-hinted-aggregate>
+          </properties>
+          <logical>
+            <key-ref id="8d62904e-7576-468a-8bb1-457a2048359b" unique="false" complete="true">
+              <column>customerkey</column>
+            </key-ref>
+            <key-ref id="23408856-9104-4d44-87a3-dc5b01878e79" unique="false" complete="true">
+              <column>customerkey</column>
+            </key-ref>
+            <key-ref id="fcd12e08-47db-4fbc-b498-2f4c0e65e94f" unique="false" complete="true">
+              <column>color</column>
+            </key-ref>
+            <key-ref id="454b1295-8726-4577-8b02-24e7ef3a279e" unique="false" complete="true">
+              <column>size</column>
+            </key-ref>
+            <key-ref id="ea0784da-3f86-486d-b3b7-1790012544be" unique="false" complete="true">
+              <column>style</column>
+            </key-ref>
+            <key-ref id="a61e6302-b896-4c21-ae6f-b60852d6719c" unique="false" complete="false">
+              <column>productkey</column>
+            </key-ref>
+            <key-ref id="fcbf6329-8833-448f-8bac-78cc3f1ffd7c" unique="false" complete="false">
+              <column>customerkey</column>
+            </key-ref>
+            <key-ref id="e533d893-1852-4d88-9cbe-f115323f5356" unique="false" complete="false">
+              <column>salesordernumber</column>
+              <column>salesorderlinenumber</column>
+            </key-ref>
+            <key-ref id="cc2930a5-3edc-4896-bc26-d58add4625ac" unique="false" complete="true">
+              <column>weight</column>
+            </key-ref>
+            <key-ref id="65862f05-a47f-47ff-b854-5a9ffe41b85a" unique="false" complete="false">
+              <ref-path>
+                <new-ref ref-id="f63b54a7-d58d-42b7-9036-29001e7a026c" attribute-id="9fa10942-ab4b-4c2f-4f83-78790386ce20">
+                  <ref-naming>Order {0}</ref-naming>
+                </new-ref>
+              </ref-path>
+              <column>orderdatekey</column>
+            </key-ref>
+            <key-ref id="ce8fe5e8-fda4-4922-aacb-ce1731fe5357" unique="false" complete="false">
+              <ref-path>
+                <new-ref ref-id="b05f107f-1121-438c-a14f-e0d23d562d44" attribute-id="ecfe6ad8-ca98-4cce-76fb-7c455aa9f9bf">
+                  <ref-naming>Order {0}</ref-naming>
+                </new-ref>
+              </ref-path>
+              <column>orderdatekey</column>
+            </key-ref>
+            <key-ref id="65862f05-a47f-47ff-b854-5a9ffe41b85a" unique="false" complete="false">
+              <ref-path>
+                <new-ref ref-id="0575cc10-5767-4732-8d16-8442e527ba85" attribute-id="9fa10942-ab4b-4c2f-4f83-78790386ce20">
+                  <ref-naming>Ship {0}</ref-naming>
+                </new-ref>
+              </ref-path>
+              <column>shipdatekey</column>
+            </key-ref>
+            <key-ref id="ce8fe5e8-fda4-4922-aacb-ce1731fe5357" unique="false" complete="false">
+              <ref-path>
+                <new-ref ref-id="9c39b56f-c895-4708-817f-d12ca1d20ab0" attribute-id="ecfe6ad8-ca98-4cce-76fb-7c455aa9f9bf">
+                  <ref-naming>Ship {0}</ref-naming>
+                </new-ref>
+              </ref-path>
+              <column>shipdatekey</column>
+            </key-ref>
+            <attribute-ref id="7fb98855-2cc0-4411-a238-21f2f27559a3" complete="true">
+              <column>Calculated Tax</column>
+            </attribute-ref>
+            <attribute-ref id="46fe3fe3-5596-467a-9ad8-0626110eac95" complete="true">
+              <column>orderquantity</column>
+            </attribute-ref>
+            <attribute-ref id="82ae19ad-b038-4230-9ff5-f0b60ab4c3ae" complete="true">
+              <column>salesamount</column>
+            </attribute-ref>
+            <attribute-ref id="c4116c34-3805-40bb-b9c0-2bc9395e3c00" complete="true">
+              <column>color</column>
+            </attribute-ref>
+            <attribute-ref id="34e6919d-4d0a-4ff1-9c44-1152f3b8ad17" complete="true">
+              <column>size</column>
+            </attribute-ref>
+            <attribute-ref id="fb3de6f4-d78f-4a38-ba55-661104a96f54" complete="true">
+              <column>style</column>
+            </attribute-ref>
+            <attribute-ref id="9c8cabbe-6510-48ca-9648-8bc376c649b2" complete="true">
+              <column>weight</column>
+            </attribute-ref>
+          </logical>
+        </data-set-ref>
+      </data-sets>
+      <calculated-members>
+        <calculated-member-ref id="3c2e4ce6-ec98-478e-664f-82759577c880"></calculated-member-ref>
+      </calculated-members>
+      <aggregates></aggregates>
+    </cube>
+  </cubes>
+</schema>
